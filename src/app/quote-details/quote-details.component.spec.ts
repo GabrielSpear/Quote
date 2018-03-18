@@ -10,6 +10,7 @@ describe('QuoteDetailsComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ QuoteDetailsComponent ]
     })
+
     .compileComponents();
   }));
 
