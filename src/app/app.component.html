@@ -1,0 +1,34 @@
+<div class="re">
+
+<button type="button" class="btn btn-info addquote">Add quotes</button>
+
+<app-quote-form (addQuote)="addNewquote($event)"></app-quote-form>
+
+</div>
+
+<div class="container-fluid">
+<div class="container-fluid q1">
+
+
+<div class=" think">
+<div class="co " >
+  <div class="well col-md-10 " *ngFor = 'let quote of quotes; let i=index'>
+    <h3  id="head1">
+    {{quote.head}}<p>
+    <button (click)='toogleDetails(i)' class="btn btn-success lg " >view quote details</button></p>
+     </h3>
+      <app-quote-details *ngIf="quote.showBody"  [quote]='quote' (isComplete)='completeQuote($event, i)'></app-quote-details>
+
+  </div>
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+
+</div>

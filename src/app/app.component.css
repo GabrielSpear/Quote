@@ -1,0 +1,32 @@
+think {
+  width: 31%;
+}
+
+.think {
+  /* display: none; */
+}
+
+.q1 {
+  width: 31%;
+}
+
+.addquote {
+  margin-top: -120px;
+}
+
+.form {
+  float: left;
+}
+
+.re {
+  float: right;
+}
+
+.input {}
+
+@media (max-width:1267) and (max-with:700px) {
+  .q1 {
+    width: 100%;
+    background-color: green;
+  }
+}
