@@ -30,3 +30,15 @@ think {
     background-color: green;
   }
 }
+
+button {
+  background-color: cyan;
+  color: green;
+}
+
+.body {
+  color: green;
+  background-image: url(../testQuote.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
