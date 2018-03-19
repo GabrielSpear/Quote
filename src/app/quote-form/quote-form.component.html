@@ -6,13 +6,13 @@
   <div class="row">
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
       <div class="form-group">
-        <input type="text" required class="form-control" placeholder="heasing of the quote" [(ngModel)] = "newQuote.head" name="head" #head = "ngModel" id="head">
+        <input type="text" required class="form-control" placeholder=" Quote Housing" [(ngModel)]="newQuote.head" name="head" #head="ngModel" id="head">
       </div>
       <div class="form-group">
-        <textarea class="form-control" rows="8" cols="40" placeholder="the body of the quote" [(ngModel)] = "newQuote.body" name="body" #body = "ngModel" id="body"></textarea>
+        <textarea class="form-control" rows="8" cols="40" placeholder="Type your new quote here" [(ngModel)]="newQuote.body" name="body" #body="ngModel" id="body"></textarea>
       </div>
 
-      <button type="submit" class="btn btn-primary" (click) ="addQuote">add quote</button>
+      <button type="submit" class="btn btn-primary" (click)="addQuote">Submit</button>
 
     </form>
 

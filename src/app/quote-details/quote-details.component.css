@@ -1,0 +1,9 @@
+button {
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-style: italic;
+  background-image: url(/testQuote.jpg);
+}
