@@ -2,7 +2,7 @@ think {
   width: 31%;
 }
 
-.think {
+.header {
   /* display: none; */
 }
 
@@ -18,7 +18,7 @@ think {
   float: left;
 }
 
-.re {
+.tab {
   float: right;
 }
 
