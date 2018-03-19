@@ -4,6 +4,8 @@
 
 #### By **List of contributors**
 
+GABRIEL GATUMU
+
 ## Description
 
 This is an angular web app in which users can add, read, like/dislikes, a quote.
@@ -11,11 +13,11 @@ This is an angular web app in which users can add, read, like/dislikes, a quote.
 ## Setup/Installation Requirements
 
 
-* your favourite text editor
+* your favorite text editor
 
 * npm version 6 or higher
 
-* angular cli comand line
+* angular cli command line
 
 * node version 5 or higher
 
@@ -28,7 +30,7 @@ non so far .
 
 ## Technologies Used
 
-the languanges used are angular 4, typescript ,basic html , bootstrap and basic css.
+the languages used are angular 4, typescript ,basic html , bootstrap and basic css.
 
 ## Support and contact details
 
