@@ -19,8 +19,8 @@ export class QuoteDetailsComponent implements OnInit {
 
 
 
-      like : number= 2;
-      dislike : number =5;
+      like : number= 0;
+      dislike : number =0;
       x:string = "-1"
 
       likes(){
