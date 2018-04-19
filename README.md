@@ -24,13 +24,9 @@ This is an angular web app in which users can add, read, like/dislikes, a quote.
 * a good network connection
 
 
-## Known Bugs
-
-non so far .
-
 ## Technologies Used
 
-the languages used are angular 4, typescript ,basic html , bootstrap and basic css.
+Languages used are angular 4, typescript ,basic html , bootstrap & basic css.
 
 ## Support and contact details
 
