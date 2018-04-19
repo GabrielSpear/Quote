@@ -1,6 +1,5 @@
 <div class="body">
 
-
   <div class="tab">
 
     <button type="button" class="btn btn-info addquote">Add quotes</button>
@@ -12,7 +11,6 @@
   <div class="container-fluid">
     <div class="container-fluid q1">
 
-
       <div class=" header">
         <div class="co ">
           <div class="well col-md-10 " *ngFor='let quote of quotes; let i=index'>
@@ -23,16 +21,13 @@
             <app-quote-details *ngIf="quote.showBody" [quote]='quote' (isComplete)='completeQuote($event, i)'></app-quote-details>
 
           </div>
+
         </div>
-
-
-
-
 
       </div>
 
     </div>
 
-
   </div>
+
 </div>

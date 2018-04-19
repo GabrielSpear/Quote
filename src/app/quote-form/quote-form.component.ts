@@ -13,7 +13,7 @@ newQuote= new Quote ('','',0);
 
 submitQuote(){
   this.addQuote.emit(this.newQuote);
-  alert("working");
+  alert("Successfully Submitted");
 }
   constructor() { }
 

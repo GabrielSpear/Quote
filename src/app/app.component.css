@@ -2,10 +2,6 @@ think {
   width: 31%;
 }
 
-.header {
-  /* display: none; */
-}
-
 .q1 {
   width: 31%;
 }
@@ -22,8 +18,6 @@ think {
   float: right;
 }
 
-.input {}
-
 @media (max-width:1267) and (max-with:700px) {
   .q1 {
     width: 100%;
@@ -38,5 +32,5 @@ button {
 
 .body {
   color: black;
-  background-color: gray;
+  background-color: #896D9E;
 }

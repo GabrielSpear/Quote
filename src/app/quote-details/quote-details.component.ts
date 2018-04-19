@@ -15,10 +15,6 @@ export class QuoteDetailsComponent implements OnInit {
         this.isComplete.emit(complete);
       }
 
-
-
-
-
       like : number= 0;
       dislike : number =0;
       x:string = "-1"
@@ -26,12 +22,10 @@ export class QuoteDetailsComponent implements OnInit {
       likes(){
         this.like = this.like+1;
       }
-      
+
       dislikes(){
         this.dislike = this.dislike+1;
       }
-
-
 
   constructor() { }
 

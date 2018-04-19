@@ -48,5 +48,4 @@ Quote.id= QuoteLength+1
   this.quotes.push(Quote)
 }
 
-
 }

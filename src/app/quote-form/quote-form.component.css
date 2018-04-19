@@ -1,6 +1,8 @@
 p {
   text-align: center;
   text-transform: capitalize;
+  color: blue;
+  font-style: italic;
 }
 
 button {
